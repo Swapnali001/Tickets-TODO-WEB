@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background-color: aquamarine;
+}
+.input-container{
+    height:15vh;
+}
+.task-container{
+    height:85vh;
+    /* background-color: rgb(24, 184, 176); */
+    color:rgb(77, 36, 6);
+    text-align: center;
+    font-family: 'Original Surfer', cursive;
+}
+
+.task{
+    list-style: none;
+    font-size: 1.25rem;
+    background-color: rgb(199, 160, 209);
+    width:60vw;
+    height:3.5rem;
+    margin-bottom: 2vh;
+    margin:0 auto;
+    margin-bottom: 0.5rem;
+}
+
+.input_box{
+    font-family: 'Original Surfer', cursive;
+    height:60%;
+    font-size:1.25rem;
+    margin-left: 26vw;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3vh;
+    width: 40vh;
+}
+.instruction{
+    font-size: 2.5rem;
+}
+@media screen and (max-width : 884px) {
+    
+    .input_box{
+        width: 60vw;
+    }
+    
+}
